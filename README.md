@@ -25,3 +25,28 @@ Should return an access token that can be used for the other endpoints
 **Note:** You can think of this as an API endpoint that will be used to handle the drag and drop feature of a TODO list application.
 
 All endpoints should return JSON responses.
+
+
+--
+## Installation and Usage
+This is a laravel app.. just download this repository and do composer update.
+Database used in backend is sqlite, I've added .env for sample installation settings
+
++----------+---------------------+-
+| Method   | URI                 | 
++----------+---------------------+-
+| POST     | api/login           | 
+| POST     | api/register        | 
+| PATCH    | api/reorder         | 
+| POST     | api/todo            | 
+| GET|HEAD | api/todo            | 
+| GET|HEAD | api/todo/{id}       | 
+| PUT      | api/todo/{id}       | 
+| DELETE   | api/todo/{id}       | 
++----------+---------------------+-
+
+**Note:**
+- Authorization used is Bearer token
+- To move task, send the id & position as parameter to api/reorder
+
+
