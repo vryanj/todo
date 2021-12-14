@@ -1,16 +1,16 @@
-#TODO API
+# TODO API
 
 Setup a project with your programming language of choice and create an API for managing a TODO list with the following specification:
 
-##Register
+## Register
 The user should be able to register with a username and password
 Usernames must be unique across all users
 
-##Login
+## Login
 The user should be able to log in with the credentials they provided in the register endpoint
 Should return an access token that can be used for the other endpoints
 
-##TODO List
+## TODO List
 -The user should only be able to access their own tasks
 -The user should be able to list all tasks in the TODO list
 -The user should be able to add a task to the TODO list
