@@ -32,18 +32,18 @@ All endpoints should return JSON responses.
 This is a laravel app.. just download this repository and do composer update.
 Database used in backend is sqlite, I've added .env for sample installation settings
 
-+----------+---------------------+-
-| Method   | URI                 | 
-+----------+---------------------+-
-| POST     | api/login           | 
-| POST     | api/register        | 
-| PATCH    | api/reorder         | 
-| POST     | api/todo            | 
-| GET|HEAD | api/todo            | 
-| GET|HEAD | api/todo/{id}       | 
-| PUT      | api/todo/{id}       | 
-| DELETE   | api/todo/{id}       | 
-+----------+---------------------+-
++----------+---------------------+-\
+| Method   | URI                 | \
++----------+---------------------+-\
+| POST     | api/login           | \
+| POST     | api/register        | \
+| PATCH    | api/reorder         | \
+| POST     | api/todo            | \
+| GET|HEAD | api/todo            | \
+| GET|HEAD | api/todo/{id}       | \
+| PUT      | api/todo/{id}       | \
+| DELETE   | api/todo/{id}       | \
++----------+---------------------+-\
 
 **Note:**
 - Authorization used is Bearer token
